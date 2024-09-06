@@ -71,7 +71,7 @@ figcaption{
   font-weight: bold;
 }
 
-.span-neovi-ion {
+.span-neovi-ion, .custom-link{
   color: #0077b6;
 }
 .span-neovi-ion:hover{
