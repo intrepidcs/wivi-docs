@@ -1,7 +1,0 @@
-User-Agent: *
-Disallow: /markdown-page
-Disallow: /test
-
-Allow: /
-
-Sitemap: https://wivi-docs.intrepidcs.com/sitemap.xml
