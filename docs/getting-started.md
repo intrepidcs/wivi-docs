@@ -25,6 +25,6 @@ sidebar_label: Getting started
 <div class="h3-custom"> 
 
 <h3><a href="/introduction-and-overview/"> (1) Introduction and Overview</a></h3>
-<h3><a href="#"> (2) Device Configuration</a></h3>
+<h3><a href="/device-configuration/"> (2) Device Configuration</a></h3>
 <h3><a href="#"> (3) Wireless neoVI</a></h3>
 </div>
