@@ -430,13 +430,13 @@ The final item to set up is SSH Access
 4. If not, click on Delete, then hit the Add instance button (leave default)  
 5. Save and Apply
 
-<div class="text--center">
+<!-- <div class="text--center">
 
 <figure>
 
 ![ssh-access](./assets/image47.png "ssh-access")
 <figcaption></figcaption>
 </figure>
-</div>
+</div> -->
 
 Once this is done, Linux is properly configured, and ready to be connected to.
