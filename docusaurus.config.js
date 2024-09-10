@@ -125,7 +125,7 @@ const config = {
             className: 'nav-link',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/intrepidcs/wivi_docs/tree/main',
             label: 'GitHub',
             position: 'right',
           },
