@@ -296,7 +296,7 @@ If you are pushing the latest .IUP file to the device, you can get the file here
 
 [https://cdn.intrepidcs.net/wivi/red2/](https://cdn.intrepidcs.net/wivi/red2/)
 
-Open the URL of the desired Wireless neoVI server and go to the page of the desired device/vehicle. With the desired device/vehicle selected, press ‘Send Script or Update.’
+Open the URL of the desired Wireless neoVI server and go to the page of the desired device/vehicle. With the desired device/vehicle selected, press 'Send Script or Update.'
 
 <div class="text--center">
 
@@ -307,7 +307,16 @@ Open the URL of the desired Wireless neoVI server and go to the page of the desi
 </figure>
 </div>
 
-In the new window that appears, select the desired update file, and press ‘Upload.’
+<div class="text--center">
+
+<figure>
+
+![send-script](./assets/ssh-script.png "send-script")
+<figcaption></figcaption>
+</figure>
+</div>
+
+In the new window that appears, select the desired update file, and press 'Upload.'
 
 <div class="text--center">
 
