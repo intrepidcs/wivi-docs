@@ -227,7 +227,7 @@ const config = {
           src: '/img/logo.svg',
           // href: '#',
           width: 160,
-          height: 150,
+          height: 64,
         },  
         copyright: `<b> Copyright © ${new Date().getFullYear()} <a href="https://intrepidcs.com/" class="ics-link" target="_blank"> Intrepid Control Systems Inc.</a> All Rights Reserved </b>`,
       },
