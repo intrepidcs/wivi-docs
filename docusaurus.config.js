@@ -94,6 +94,8 @@ const config = {
         logo: {
           alt: 'Wireless neoVI Logo',
           src: 'img/logo.svg',
+          width: 32,
+          height: 32,
           // srcDark: '/img/logo-dark.svg', 
           // href: '#',
           // target: '_self',
