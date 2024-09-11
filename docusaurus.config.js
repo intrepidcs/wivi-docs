@@ -68,18 +68,18 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        // sitemap: {
-        //   lastmod: 'date',
-        //   changefreq: 'weekly',
-        //   priority: 0.5,
-        //   ignorePatterns: ['/test/**', '/markdown-page/**'],
-        //   filename: 'sitemap.xml',
-        //   createSitemapItems: async (params) => {
-        //     const {defaultCreateSitemapItems, ...rest} = params;
-        //     const items = await defaultCreateSitemapItems(rest);
-        //     return items.filter((item) => !item.url.includes('/page/'));
-        //   },
-        // },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/test/**', '/markdown-page/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
+        },
       }),
     ],
   ],
@@ -125,7 +125,7 @@ const config = {
             className: 'nav-link',
           },
           {
-            href: 'https://github.com/intrepidcs/wivi_docs/tree/main',
+            href: 'https://github.com/intrepidcs/wivi-docs',
             label: 'GitHub',
             position: 'right',
           },
