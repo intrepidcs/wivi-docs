@@ -107,3 +107,9 @@ figcaption{
   width: 100%; /* Ensure the images take up the full width of the figure */
   height: auto; /* Maintain aspect ratio */
 }
+
+img.inline-image {
+  /* width: 60px;
+  height: 40px; */
+  vertical-align: middle;
+}

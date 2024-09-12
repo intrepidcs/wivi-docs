@@ -66,9 +66,9 @@ Wireless neoVI supports the [neoVI RED2](https://intrepidcs.com/products/vehicle
 
 <br/>
 
-  - Integration - Each hardware interface is deeply integrated with Wireless neoVI, providing seamless communication and operational efficiency within vehicle networks.
-  - Compatibility - Designed specifically for vehicle networks, these interfaces ensure compatibility with Wireless neoVI’s software ecosystem, enhancing overall system performance.
-  - Support - Wireless neoVI provides comprehensive support for these hardware interfaces, ensuring smooth integration and reliable operation.
+  - **Integration** - Each hardware interface is deeply integrated with Wireless neoVI, providing seamless communication and operational efficiency within vehicle networks.
+  - **Compatibility** - Designed specifically for vehicle networks, these interfaces ensure compatibility with Wireless neoVI’s software ecosystem, enhancing overall system performance.
+  - **Support** - Wireless neoVI provides comprehensive support for these hardware interfaces, ensuring smooth integration and reliable operation.
 
 ## 1.5 Server Requirements {#server-requirements}
 

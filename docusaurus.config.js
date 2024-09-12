@@ -47,7 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           routeBasePath: '/',
           editUrl:
-            'https://github.com/intrepidcs/wivi_docs/blob/main/'
+            'https://github.com/intrepidcs/wivi-docs/blob/main/'
         },
         // blog: {
         //   showReadingTime: true,
