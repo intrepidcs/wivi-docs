@@ -113,3 +113,8 @@ img.inline-image {
   height: 40px; */
   vertical-align: middle;
 }
+
+.td-center{
+  text-align: center;
+  font-weight: bold;
+}
