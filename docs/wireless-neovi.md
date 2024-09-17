@@ -87,7 +87,7 @@ Please contact your Wireless neoVI administrator for your website address and ac
 <figure>
 
 ![Log In to the Wireless neoVI website](./assets/image95.png "Log In to the Wireless neoVI website")
-<figcaption>Figure 1: Log In to the Wireless neoVI website.</figcaption>
+<figcaption>Figure: Log In to the Wireless neoVI website.</figcaption>
 </figure>
 </div>
 
@@ -102,7 +102,7 @@ Wireless neoVI website users have access to the menu selections shown in Figure 
 <figure>
 
 ![Home Page](./assets/image14.png "Home Page")
-<figcaption>Figure 2: Home Page</figcaption>
+<figcaption>Figure: Home Page</figcaption>
 </figure>
 </div>
 
@@ -551,12 +551,24 @@ This section will show you how to make a VS3ZIP file in Vehicle Spy 3 utilizing 
 5\. Configure Standalone Logging options.  
 6\. Generate the VS3ZIP script on your PC.
 
-![](https://placehold.co/700x500)  
+<div class="text--center">
 
-Figure 1: Opening VehicleScape DAQ
+<figure>
 
-![](https://placehold.co/700x500)  
-Figure 1: Use Vehicle Spy 3 VehicleScape DAQ to make a VS3ZIP script for supported neoVI Connect/RED2/FIRE3 hardware.
+![VehicleScape DAQ](./assets/image67.png "VehicleScape DAQ")
+<figcaption>Figure: Opening VehicleScape DAQ</figcaption>
+</figure>
+</div>
+
+<div class="text--center">
+
+<figure>
+
+![VehicleScape DAQ](./assets/image58.png "VehicleScape DAQ")
+<figcaption>Figure: Use Vehicle Spy 3 VehicleScape DAQ to make a VS3ZIP script for supported neoVI Connect/RED2/FIRE3 hardware.</figcaption>
+</figure>
+</div>
+
 
 **VehicleScape DAQ: Database/Hardware Setup Tab (Setup Databases)**
 
@@ -565,30 +577,46 @@ The critical role of the Database/Hardware Setup tab (Figure 1\) is to set up da
 **Setup Databases**
 
 The Platform Setup section has four parts. All database choices made here will affect the list of signals available on the Channels tab nearby.  
-![][image50]
 
-The first section is the Current Platform   
+<div class="text--center">
+
+<figure>
+
+![Platform Setup](./assets/image94.png "Platform Setup")
+<figcaption></figcaption>
+</figure>
+</div>
+
+The first section is the Current Platform.   
 The platform consists of the entire group of databases in the next three sections. VehicleScape is very database-dependent, so selecting the correct platform is important\! If the platform is not correct or does not exist yet, this section will let you correct it. To change the platforms in the list, click the Setup Platforms button to edit them.
 
 The following section covers Network databases, which are utilized for all regular vehicle network traffic (non-diagnostic). To access the Network Databases dialog, click the Load DBC or VSDB files button.
 
-1\. Network databases
+**1\. Network databases**
 
 * These databases are applied to all normal mode (non-diagnostic) vehicle network traffic.   
 * Clicking the Load DBC or VSDB files button will bring up the Network Databases dialog.
 
-2\. Diagnostic databases
+**2\. Diagnostic databases**
 
 * These databases are applied to all diagnostic vehicle network traffic.   
 * Clicking the Load ODX, MDX/GDX, or A2L files button will take you to ECUs view where new diagnostic database files can be loaded.
 
-3\. MEP databases
+**3\. MEP databases**
 
 * Memory Edit Protocol reads and writes ECU memory locations using A2L database files applied to CCP or XCP vehicle network traffic.   
 * If any are missing or need updating, the Load A2L files for CCP/XCP will display a MEP view where A2L Files can be added or updated.
 
 **Extract and Export**  
-**![](https://placehold.co/700x500)**
+
+<div class="text--center">
+
+<figure>
+
+![Extract and Export](./assets/image70.png "Extract and Export")
+<figcaption></figcaption>
+</figure>
+</div>
 
 The "Extract and Export" button opens a feature that can use your PC to read an SD card taken from a neoVI, extract raw data VSB files from it, then export those VSB files to other decoded file types. For neoVI working in wireless mode this extract/export process is usually done with the Wireless NeoVI website without fumbling around with SD cards
 
@@ -606,7 +634,14 @@ Users have the option to designate highlighted signals for logging individually 
 
 The **Paste List** button can speed up signal selection when working with a huge list of signals. First, copy to the clipboard a list of line delimited signal names from any source, like a column in a spreadsheet. Next, click the Paste List button and Vehicle Spy will attempt to select all signals that match the clipboard entries. Specific Problem Logs will indicate any signals that Vehicle Spy could not find a match for
 
-![](https://placehold.co/700x500)  
+<div class="text--center">
+
+<figure>
+
+![VehicleScape DAQ Channels](./assets/image86.png "VehicleScape DAQ Channels")
+<figcaption></figcaption>
+</figure>
+</div>
 
 Use the left side of VehicleScape DAQ Channels to find and select signals to log. Use the right side of the tab to make adjustments to the signals selected.
 
@@ -622,14 +657,29 @@ If GMLAN is enabled in Vehicle Spy Tools/Options, then items from GM cal files c
 
 The Selected Channels for Test area in the lower half of Figure 2 displays the signals that were selected to be logged. If the signal is a PID or MEP A2L file data item then its priority (how often it gets requested) can be changed to Fast/Medium/Slow by double clicking on it. At the bottom of this area, use the Clear button to clear the entire list or the **Remove** button to remove signals one at a time.
 
-![](https://placehold.co/700x500)  
+<div class="text--center">
+
+<figure>
+
+![Selected Channels for Test](./assets/image74.png "Selected Channels for Test")
+<figcaption></figcaption>
+</figure>
+</div>
     
 
 **Right Click Menu (Figure 3\)**
 
 The Selected Channels For Test area has an extensive right click menu with selections described below in Table 1\.  
-![][image54]  
-Figure 3: The Selected Channels For Test area has useful right click menu selections.
+
+<div class="text--center">
+
+<figure>
+
+![Right Click Menu](./assets/image73.png "Right Click Menu")
+<figcaption>Figure: The Selected Channels For Test area has useful right click menu selections.</figcaption>
+</figure>
+</div>
+
 
 |  **Rt Click Menu Selection** 	|                                                                                                                                                                                                                         **Description**                                                                                                                                                                                                                        	|
 |:----------------------------:	|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
@@ -690,13 +740,31 @@ The bottom area contains important sections that do not change appearance becaus
 </tbody>
 </table>
 
-![](https://placehold.co/700x500)  
+<div class="text--center">
+
+<figure>
+
+![VehicleScape DAQ Standalone Logging tab](./assets/image89.png "VehicleScape DAQ Standalone Logging tab")
+<figcaption>VehicleScape DAQ Standalone Logging tab overview</figcaption>
+</figure>
+</div>
 
 In Vehicle Spy, the VehicleScape DAQ Standalone Logging tab has 2 major areas. The top half, shown above, contains settings for this current collection selected. The bottom half, shown below, contains settings for all collectons. Click ‘Generate’ at the very bottom to compile CoreMini and create your .wivi file. 
 
-![](https://placehold.co/700x500)  
+<div class="text--center">
+
+<figure>
+
+![compile CoreMini](./assets/image79.png "compile CoreMini")
+<figcaption></figcaption>
+</figure>
+</div>
 
 ### 3.2.2 Standalone Logging Collections and Methods {#standalone-logging-collections-and-methods}
+
+
+
+<hr/>
 
 #### 1 – Collections {#collections}
 
@@ -706,10 +774,24 @@ Collections appear as vertical tabs along the right side of Standalone Logging s
 
 The collection name can be changed at the top of each method setup area as shown in Figure 2\. Every data file saved by the logger script will have the same root name as the collection it came from.
 
-**![](https://placehold.co/700x500)**  
-         **Figure 2: This collection name is shown on the vertical tabs.**
+<div class="text--center">
 
-                                   Figure 1: Collection tabs
+<figure>
+
+![collection name vertical tabs](./assets/image20.png "collection name vertical tabs")
+<figcaption>Figure: This collection name is shown on the vertical tabs.</figcaption>
+</figure>
+</div>
+
+<div class="text--center">
+
+<figure>
+
+![collection vertical tabs](./assets/image40.png "collection vertical tabs")
+<figcaption>Figure: Collection tabs</figcaption>
+</figure>
+</div>
+                                   
 
 **Methods**
 
@@ -722,15 +804,28 @@ Each collection (Figure 3\) can gather messages, a histogram, or a bus query.
 
 The following links will take you to detailed help for each Standalone Logging method
 
-![](https://placehold.co/700x500)  
-Figure 3: Standalone Logging can gather messages, histograms, and bus queries.
+<div class="text--center">
+
+<figure>
+
+![Standalone Logging method](./assets/image6.png "Standalone Logging method")
+<figcaption>Figure: Standalone Logging can gather messages, histograms, and bus queries.</figcaption>
+</figure>
+</div>
+
 
 #### 2 – Message {#message}
 
 In VehicleScape DAQ the Standalone Logging of a Messages collection lets ICS hardware log data files over a period of time. Use the links in Table 1 to see more help for the setup options.
 
-![](https://placehold.co/700x500)  
-Figure 1: The VehicleScape DAQ Standalone Logging Messages selection.
+<div class="text--center">
+
+<figure>
+
+![Standalone Logging Messages selection](./assets/image6.png "Standalone Logging Messages selection")
+<figcaption>Figure: The VehicleScape DAQ Standalone Logging Messages selection.</figcaption>
+</figure>
+</div>
 
 Table 1: Standalone Logging Messages Setup Sections
 
@@ -776,7 +871,16 @@ Table 1: Standalone Logging Messages Setup Sections
   </tr>
 </tbody></table>
 
-In VehicleScape DAQ the Standalone Logging of a Messages collection has specific settings described in Table 1 and shown in Figure 1\.
+<div class="text--center">
+
+<figure>
+
+![Standalone Logging Messages Collection Options](./assets/image6.png "Standalone Logging Messages Collection Options")
+<figcaption>Figure: The Standalone Logging Message Collection Options.</figcaption>
+</figure>
+</div>
+
+In VehicleScape DAQ the Standalone Logging of a Messages collection has specific settings described in Table 1 and shown in above Figure\.
 
 Table 1: Standalone Logging Message Collection Options
 
@@ -822,10 +926,17 @@ Table 1: Standalone Logging Message Collection Options
   </tr>
 </tbody></table>
 
-![][image59]  
-Figure 1: The Standalone Logging Message Collection Options.
+<div class="text--center">
 
-In VehicleScape DAQ the Standalone Logging of a Messages or Bus Query collection has Start Options described in Table 1 and shown in Figure 1\.
+<figure>
+
+![Standalone Logging Msg Collection Options](./assets/image46.png "Standalone Logging Msg Collection Options")
+<figcaption>Figure: The Standalone Logging Message Collection Options.</figcaption>
+</figure>
+</div>
+
+
+In VehicleScape DAQ the Standalone Logging of a Messages or Bus Query collection has Start Options described in Table 1 and shown in above Figure.
 
 Table 1: Standalone Logging Collection Start Options
 
@@ -884,8 +995,14 @@ Table 1: Standalone Logging Collection Start Options
 </tbody></table>
 
 
-![](https://placehold.co/700x500)  
-Figure 1: The Standalone Logging Collection Start Options.
+<div class="text--center">
+
+<figure>
+
+![Standalone Logging Collection Start Options](./assets/image72.png "Standalone Logging Collection Start Options")
+<figcaption>Figure: The Standalone Logging Collection Start Options.</figcaption>
+</figure>
+</div> 
 
 In VehicleScape DAQ the Standalone Logging of a Messages or Bus Query collection has a Collection Configuration setup that changes appearance based upon what Collection Start Option is selected. Use the links described in Table 1 to see more help for each configuration setup.
 
@@ -969,12 +1086,18 @@ Table 1: Standalone Logging Collection Configuration \- Finish After Messages or
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Collection Configuration if Collection Start \= Immediately or When Expression is True
+<div class="text--center">
+
+<figure>
+
+![Collection Configuration](./assets/image31.png "Collection Configuration")
+<figcaption>Figure: The Collection Configuration if Collection Start \= Immediately or When Expression is True</figcaption>
+</figure>
+</div> 
 
 In VehicleScape DAQ the Standalone Logging of a Messages collection has a Collection Configuration setup area that changes appearance based upon what Collection Start Option is selected.
 
-The Collection Configuration in Figure 1 is displayed if:
+The Collection Configuration in above Figure is displayed if:
 
 **Collection Start Option \= Using Trigger and Pre/Post Collection is selected.**
 
@@ -1048,8 +1171,14 @@ Table 1: Standalone Logging Collection Configuration \- Pre/Post Collection Opti
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Collection Configuration if Collection Start \= Using Trigger and Pre/Post is selected.
+<div class="text--center">
+
+<figure>
+
+![Standalone Logging Collection Configuration - Pre/Post Collection Options](./assets/image21.png "Standalone Logging Collection Configuration - Pre/Post Collection Options")
+<figcaption>Figure: The Collection Configuration if Collection Start \= Using Trigger and Pre/Post is selected.</figcaption>
+</figure>
+</div> 
 
 In VehicleScape DAQ the Standalone Logging of a Messages or Bus Query collection has a Collection Configuration setup area that changes appearance based upon what Collection Start Option is selected.
 
@@ -1099,8 +1228,14 @@ Table 1: Standalone Logging Collection Configuration \- One Shot Report Setting
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Collection Configuration if Collection Start \= Using Trigger and One Shot Report is selected.
+<div class="text--center">
+
+<figure>
+
+![Standalone Logging Collection Configuration - Using Trigger and One Shot Report](./assets/image83.png "Standalone Logging Collection Configuration - Using Trigger and One Shot Report")
+<figcaption>Figure: The Collection Configuration if Collection Start \= Using Trigger and One Shot Report is selected.</figcaption>
+</figure>
+</div> 
 
 In VehicleScape DAQ the Standalone Logging of a Messages or Bus Query collection has Restart Options that change appearance based upon other collection settings.
 
@@ -1142,13 +1277,32 @@ Table 1: Standalone Logging Restart Options
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Restart Options if Collection Start \= Immediately.  
-![](https://placehold.co/700x500)  
-Figure 2: The Restart Options if Collection Start \= When Expression is True.
+<div class="text--center">
 
-![](https://placehold.co/700x500)  
-Figure 3: The Restart Options if Collection Configuration \= Stop on Expression.
+<figure>
+
+![The Restart Options if Collection Start \= Immediately.  ](./assets/image84.png "The Restart Options if Collection Start \= Immediately.")
+<figcaption>Figure: The Restart Options if Collection Start \= Immediately. </figcaption>
+</figure>
+</div> 
+
+<div class="text--center">
+
+<figure>
+
+![The Restart Options if Collection Start \= When Expression is True.](./assets/image52.png "The Restart Options if Collection Start \= When Expression is True.")
+<figcaption>Figure: The Restart Options if Collection Start \= When Expression is True.</figcaption>
+</figure>
+</div>
+
+<div class="text--center">
+
+<figure>
+
+![The Restart Options if Collection Start \= Stop on Expression.](./assets/image13.png "The Restart Options if Collection Start \= Stop on Expression.")
+<figcaption>Figure: The Restart Options if Collection Configuration \= Stop on Expression.</figcaption>
+</figure>
+</div>
 
 **Standalone Logging neoVI Collection Upload**
 
@@ -1192,8 +1346,14 @@ Table 1: Standalone Logging neoVI Collection Upload Settings
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Wireless neoVI Collection Upload settings.
+<div class="text--center">
+
+<figure>
+
+![The Wireless neoVI Collection Upload settings](./assets/image-wivi-neovi.png "The Wireless neoVI Collection Upload settings")
+<figcaption>Figure: The Wireless neoVI Collection Upload settings.</figcaption>
+</figure>
+</div>
 
 In VehicleScape DAQ the Standalone Logging of a Histogram collection will log the frequency of data points across a value range over a period of time.
 
@@ -1302,10 +1462,16 @@ Table 1: Standalone Logging Histogram Settings
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Standalone Logging Histogram settings.
+<div class="text--center">
 
-Standalone Logging - Bus Query Method
+<figure>
+
+![The Standalone Logging Histogram settings](./assets/image-histo.png "The Standalone Logging Histogram settings")
+<figcaption>Figure: The Standalone Logging Histogram settings.</figcaption>
+</figure>
+</div>
+
+**Standalone Logging - Bus Query Method**
 
 In VehicleScape DAQ the Standalone Logging of a Bus Query collection can log a snapshot of DID values and DTCs at one point in time from several ECUs at once.
 
@@ -1391,8 +1557,14 @@ Table 1: Standalone Logging Bus Query Settings
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Standalone Logging Bus Query settings.
+<div class="text--center">
+
+<figure>
+
+![The Standalone Logging Bus Query settings](./assets/image-bus-querry.png "The Standalone Logging Bus Query settings")
+<figcaption>Figure 1: The Standalone Logging Bus Query settings.</figcaption>
+</figure>
+</div> 
 
 **Standalone Logging Reporting Options**
 
@@ -1441,8 +1613,14 @@ Table 1: Standalone Logging Reporting Options
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Standalone Logging Reporting Options.
+<div class="text--center">
+
+<figure>
+
+![The Standalone Logging Reporting Options](./assets/image-status-reporting.png "The Standalone Logging Reporting Options")
+<figcaption>Figure: The Standalone Logging Reporting Options.</figcaption>
+</figure>
+</div>
 
 **Standalone Logging Power Management**
 
@@ -1517,9 +1695,14 @@ Table 1: Standalone Logging Power Management Settings
   </tr>
 </tbody></table>
 
-![](https://placehold.co/700x500)
+<div class="text--center">
 
-Figure 1: The Standalone Logging Power Management settings
+<figure>
+
+![The Standalone Logging Power Management settings](./assets/image-power.png "The Standalone Logging Power Management settings")
+<figcaption>Figure: The Standalone Logging Power Management settings</figcaption>
+</figure>
+</div>
 
 **Standalone Logging Generate**
 
@@ -1529,15 +1712,117 @@ In VehicleScape DAQ the Standalone Logging feature has options for generating th
 
 Table 1: Standalone Logging Generate Settings
 
-### table
+<table><tbody>
+  <tr>
+    <td>**Generate Setting**</td>
+    <td>**Description**</td>
+  </tr>
+  <tr>
+    <td>Generate decoding database</td>
+    <td>Include a decoding database with the script file based upon databases shown on the Database/Hardware Setup tab.</td>
+  </tr>
+  <tr>
+    <td>Transfer to SD card</td>
+    <td>Save the decoding database on the logger SD card.</td>
+  </tr>
+  <tr>
+    <td>Save to local file system</td>
+    <td>Save the decoding database on the PC.</td>
+  </tr>
+  <tr>
+    <td>Save setup as VS3ZIP</td>
+    <td>Save the current setup in VS3ZIP format to copy all databases and the VS3 file into one file.This format is required for use with the WirelessNeoVI website.</td>
+  </tr>
+  <tr>
+    <td>Save in existing setup</td>
+    <td>Save the setup in the currently open VS3ZIP file.</td>
+  </tr>
+  <tr>
+    <td>Save in data directory</td>
+    <td>Save the setup in a new VS3ZIP file in the user's Vehicle Spy Data Directory.</td>
+  </tr>
+  <tr>
+    <td>Generate for</td>
+    <td>Select CoreMini if the script will be used in ICS logger hardware.<br/><br/>Select Vehicle Spy if the script will be used for desktop debugging purposes.</td>
+  </tr>
+  <tr>
+    <td>Hardware</td>
+    <td>Select the ICS logger hardware that will be running this Standalone Logging script.</td>
+  </tr>
+  <tr>
+    <td>Generate button</td>
+    <td>Click Generate to build the Standalone Logging script.This process converts all settings into Function Blocks, Application Signals, and Messages and names them all with a "_VSSAL" suffix. This also opens CoreMini Console which compiles the information and saves it on the PC.</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="td-center">Advanced Generator Options</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="td-center">Advanced Tab</td>
+  </tr>
+  <tr>
+    <td>Advanced Options button</td>
+    <td>Click Advanced Options shown in Figure 1 to access the dialogs shown in Figures 2 and 3.</td>
+  </tr>
+  <tr>
+    <td>Force use of partitions</td>
+    <td>For all collections, forces the use of partitions; not just on the pre/post collections.</td>
+  </tr>
+  <tr>
+    <td>Use EnterExtendedSession</td>
+    <td>For all collections, when using ISO 14229, use diagnostic job $10/03 to initiate diagnostics with ECUs.</td>
+  </tr>
+  <tr>
+    <td>Enable MISC I/O to control external...</td>
+    <td>For all collections, use the \{MISC IO 1 (Value) :neo0-mi0-0-index(0)} output on the ICS logger to control external devices across logger sleep/wake cycles.<br/> 0 = off (asleep), 1 = on (awake).</td>
+  </tr>
+  <tr>
+    <td>Networks to ignore in sleep expression</td>
+    <td>For all collections, use this table to select Networks for the Power Management sleep setting = "On No Bus Activity".</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="td-center">Auto Disable Diagnostics Tab</td>
+  </tr>
+  <tr>
+    <td>Auto stop diag requests to ECUs...</td>
+    <td>For all collections, automatically stop diagnostic requests to ECUs when a separate tool makes a request.</td>
+  </tr>
+  <tr>
+    <td>If no diag commands exist from other tool...</td>
+    <td>For all collections, if no diagnostic commands exist from a separate tool then restart diagnostic commands after timeout (in seconds).</td>
+  </tr>
+  <tr>
+    <td>Auto Disable Diagnostics table</td>
+    <td>For all collections, if a message appears on the chosen network with the chosen arbitration ID then the logger will stop transmitting all diagnostic messages.</td>
+  </tr>
+</tbody></table>
 
-![](https://placehold.co/700x500)  
-Figure 1: The Standalone Logging Generate settings.  
-![](https://placehold.co/700x500)   
-Figure 2: Click "Advanced Options" and click on the Advanced tab to see these settings
+<div class="text--center">
 
-![](https://placehold.co/700x500)  
-Figure 3: Click "Advanced Options" and click on the Auto Disable Diagnostics tab to see these settings.
+<figure>
+
+![The Standalone Logging Generate settings](./assets/image-generate-setting.png "The Standalone Logging Generate settings")
+<figcaption>Figure: The Standalone Logging Generate settings.  </figcaption>
+</figure>
+</div>
+
+
+<div class="text--center">
+
+<figure>
+
+![Advanced tab](./assets/image-advanced-options.png "Advanced tab")
+<figcaption>Figure: Click "Advanced Options" and click on the Advanced tab to see these settings</figcaption>
+</figure>
+</div>
+
+<div class="text--center">
+
+<figure>
+
+![Advanced Options](./assets/image-auto-disable-diagnostics.png "Advanced Options")
+<figcaption>Figure: Click "Advanced Options" and click on the Auto Disable Diagnostics tab to see these settings.</figcaption>
+</figure>
+</div>
 
 **Power Modes**
 
@@ -1551,7 +1836,29 @@ Connecting power first to neoVI RED2/FIRE3 always starts its VS3ZIP script (if p
 
 Table 1: Results of neoVI PLASMA Power Up Sequence
 
-### table
+<table><tbody>
+  <tr>
+    <td>**Power Up Sequence**</td>
+    <td>**Result**</td>
+    <td>**LED Blink Pattern (neoVI)**</td>
+  </tr>
+  <tr>
+    <td>Power Only</td>
+    <td>VS3ZIP script starts* (if present)</td>
+    <td>Blink Red Only<br/>(LED #1)</td>
+  </tr>
+  <tr>
+    <td>Power then USB</td>
+    <td>Power 1st - VS3ZIP script starts* (if present)<br/><br/>USB 2nd - neoVI PLASMA can be used with the PC, even after the script has started</td>
+    <td>Alternate Red / Green<br/>(LED #1 / #2)</td>
+  </tr>
+  <tr>
+    <td>USB then Power</td>
+    <td>USB 1st - neoVI PLASMA can be used with the PC<br/><br/>Power 2nd - VS3ZIP script does NOT start*</td>
+    <td>Blink Green Only<br/>(LED #2)</td>
+  </tr>
+</tbody>
+</table>
 
 \*REMEMBER: The Wireless NeoVI website can also start, stop, clear and change VS3ZIP scripts in neoVI PLASMA from far away\! So when using neoVI PLASMA with a PC, it is sometimes necessary to disable the Wireless neoVI application to clearly establish control over the device.
 
@@ -1559,8 +1866,14 @@ Table 1: Results of neoVI PLASMA Power Up Sequence
 
 When making a VS3ZIP script file using Vehicle Spy VehicleScape DAQ, the Standalone Logging Power Management options in Figure 1 offer great flexibility.
 
-![](https://placehold.co/700x500)  
-Figure 1: The Power Management area on the VehicleScape DAQ, Standalone Logging tab.
+<div class="text--center">
+
+<figure>
+
+![Power Management area](./assets/image-power.png "Power Management area")
+<figcaption>Figure: The Power Management area on the VehicleScape DAQ, Standalone Logging tab.</figcaption>
+</figure>
+</div>  
 
 **Sleep Triggers** \- There are four selections to choose from, with the last three having an adjustable timer setting.
 
@@ -1574,22 +1887,49 @@ Figure 1: The Power Management area on the VehicleScape DAQ, Standalone Logging 
 
 These modes are summarized in Table 2\.
 
-### table
+<table><tbody>
+  <tr>
+    <td>**#**</td>
+    <td>**Mode**</td>
+    <td>**When Awake**</td>
+    <td>**When Asleep**</td>
+    <td>**Awake<br/>mA @ 12V**</td>
+    <td>**Asleep<br/>mA @ 12V**</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>Normal</td>
+    <td>Everything runs.</td>
+    <td>Wakeup might miss first few messages.</td>
+    <td>~ 700 mA</td>
+    <td>~ 10 mA</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Instant<br/>(HS/MS)</td>
+    <td>Everything runs.</td>
+    <td>Wakeup from HS or MSCAN will log first message.</td>
+    <td>~ 700 mA</td>
+    <td>~ 44 mA</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Drowsy</td>
+    <td>Screen remains off, but script and SD card runs.</td>
+    <td>Wakeup from HS or MSCAN will log first message.</td>
+    <td>~ 180 mA</td>
+    <td>~ 44 mA</td>
+  </tr>
+</tbody>
+</table>
 
 The \# column in Table 2 is the value of the "Power Management Mode" signal found in the Vehicle Spy Expression Builder under the Physical IO, Power Management category.
 
+<hr/>
+
 ## 3.3 Troubleshooting Wireless neoVI website {#troubleshooting-wireless-neovi-website}
 
-If there are any questions, please reach out to Intrepid Support below.
+For Wireless neoVI support, please contact Intrepid at:
 
- 
-
-ICS Support Contact Information:
-
-[icssupport@intrepidcs.com](mailto:icssupport@intrepidcs.com)
-
-\+1 586-731-7950 EX 1
-
-VSPY 3 DOCS
-
-HW DOCS
+Email: icssupport@intrepidcs.com <br/>
+Phone: +1 586-731-7950 (Ext. 1)
