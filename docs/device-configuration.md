@@ -96,6 +96,24 @@ This could take up to a minute to connect the first time.
 </figure>
 </div>
 
+<div class="text--center">
+
+<figure>
+
+![uplink](./assets/image-scan.png "uplink")
+<figcaption></figcaption>
+</figure>
+</div>
+
+<div class="text--center">
+
+<figure>
+
+![image-add-uplink.png](./assets/image-add-uplink.png "image-add-uplink")
+<figcaption></figcaption>
+</figure>
+</div>
+
 ### 2.2.2 Server Setup {#server-setup}
 
  Next is to set up the server connection. 

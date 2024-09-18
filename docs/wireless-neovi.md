@@ -108,7 +108,7 @@ Wireless neoVI website users have access to the menu selections shown in Figure 
 
 ### 3.1.1 User Information {#user-information}
 
-1) User Dashboard  
+**1\) User Dashboard -**
 
 <div class="text--center">
 
@@ -121,7 +121,7 @@ Wireless neoVI website users have access to the menu selections shown in Figure 
 
 After clicking on user name →  My Account ↴ shows following information.
 
-2) User Account Information including permission details.
+**2\) User Account Information including permission details -**
 
 <div class="text--center">
 
@@ -132,8 +132,8 @@ After clicking on user name →  My Account ↴ shows following information.
 </figure>
 </div>
 
-3) Notifications  
-   In this window you will check activity related notifications from wireless neoVI.  
+**3\) Notifications -** <br/> 
+In this window you will check activity related notifications from wireless neoVI.  
 
 <div class="text--center">
 
@@ -144,15 +144,24 @@ After clicking on user name →  My Account ↴ shows following information.
 </figure>
 </div>
 
-4) Download
+**4\) Download -**
 
 	The download related files and other things will show here.
+
+<div class="text--center">
+
+<figure>
+
+![image-download.png](./assets/image-download.png "image-download")
+<figcaption></figcaption>
+</figure>
+</div>
 
 ### 3.1.2 Server Information {#server-information}
 
 Users have the ability to view server-related information and manage server settings effortlessly. Additionally, users can download server information with a single click.
 
-1) Overview Menu \- Upon selecting the server, within its menu, you will find "Overview" as a submenu. Here, you can access server overview information, including details such as job queue status, disk storage utilization, and component versions.
+**1) Overview Menu \-** Upon selecting the server, within its menu, you will find "Overview" as a submenu. Here, you can access server overview information, including details such as job queue status, disk storage utilization, and component versions.
 
 <div class="text--center">
 
@@ -163,7 +172,7 @@ Users have the ability to view server-related information and manage server sett
 </figure>
 </div>
 
-2) Announcement Menu \- Within this submenu, you can view all announcements posted by users, along with their respective dates. You have the option to edit or delete these announcements. Additionally, you can send messages to all site users simply by typing your message.
+**2) Announcement Menu \-** Within this submenu, you can view all announcements posted by users, along with their respective dates. You have the option to edit or delete these announcements. Additionally, you can send messages to all site users simply by typing your message.
 
 <div class="text--center">
 
@@ -174,7 +183,7 @@ Users have the ability to view server-related information and manage server sett
 </figure>
 </div>
 
-3) Audit Logs Menu \- Within this menu, all audit log information is displayed. You can filter the logs by Date Range, User, Entity, and Operation to refine the displayed information. Below is an image showing an overview of the audit logs.
+**3) Audit Logs Menu \-** Within this menu, all audit log information is displayed. You can filter the logs by Date Range, User, Entity, and Operation to refine the displayed information. Below is an image showing an overview of the audit logs.
 
 <div class="text--center">
 
@@ -185,7 +194,7 @@ Users have the ability to view server-related information and manage server sett
 </figure>
 </div>
 
-4) Data Management → Trending \- Within this submenu, you can view all fleets along with their respective vehicles.
+**4) Data Management → Trending \-** Within this submenu, you can view all fleets along with their respective vehicles.
 
 <div class="text--center">
 
@@ -196,7 +205,7 @@ Users have the ability to view server-related information and manage server sett
 </figure>
 </div>
 
-5) Data Management → Usage  
+**5) Data Management → Usage**  
 
 <div class="text--center">
 
@@ -207,7 +216,7 @@ Users have the ability to view server-related information and manage server sett
 </figure>
 </div>
 
-6) Logs \- Within this submenu, you can access all log messages, including API, server, dataspy, distiller, UI, and others.  
+**6) Logs \-** Within this submenu, you can access all log messages, including API, server, dataspy, distiller, UI, and others.  
 
 <div class="text--center">
 
@@ -218,7 +227,7 @@ Users have the ability to view server-related information and manage server sett
 </figure>
 </div>
 
-7) Server Host Information \-   
+**7) Server Host Information \-**
 
 <div class="text--center">
 
@@ -792,7 +801,6 @@ The collection name can be changed at the top of each method setup area as shown
 </figure>
 </div>
                                    
-
 **Methods**
 
 Each collection (Figure 3\) can gather messages, a histogram, or a bus query.
@@ -812,7 +820,6 @@ The following links will take you to detailed help for each Standalone Logging m
 <figcaption>Figure: Standalone Logging can gather messages, histograms, and bus queries.</figcaption>
 </figure>
 </div>
-
 
 #### 2 – Message {#message}
 
@@ -1860,7 +1867,7 @@ Table 1: Results of neoVI PLASMA Power Up Sequence
 </tbody>
 </table>
 
-\*REMEMBER: The Wireless NeoVI website can also start, stop, clear and change VS3ZIP scripts in neoVI PLASMA from far away\! So when using neoVI PLASMA with a PC, it is sometimes necessary to disable the Wireless neoVI application to clearly establish control over the device.
+\* **REMEMBER:** The Wireless NeoVI website can also start, stop, clear and change VS3ZIP scripts in neoVI PLASMA from far away\! So when using neoVI PLASMA with a PC, it is sometimes necessary to disable the Wireless neoVI application to clearly establish control over the device.
 
 **Power Management Using Standalone Logging Settings**
 
