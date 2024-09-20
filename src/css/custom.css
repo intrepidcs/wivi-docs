@@ -118,3 +118,11 @@ img.inline-image {
   text-align: center;
   font-weight: bold;
 }
+
+.text-red{
+  color: red;
+}
+
+.text-green{
+  color: #22C55E;
+}

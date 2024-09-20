@@ -2,7 +2,7 @@
 title: "Support Contact Information | Intrepid Control Systems"
 description: Get support for Intrepid Control Systems products from our USA headquarters or international offices. Contact us via phone or email during business hours for prompt assistance.
 keywords: [contact-us, support,support, contact information, Intrepid Control Systems, ICS support, USA headquarters, international offices, phone support, email support, product assistance, global offices]
-sidebar_position: 4
+sidebar_position: 5
 sidebar_label: Support Contact Information
 ---
 
@@ -16,11 +16,11 @@ Troy, MI 48083 USA\
 
 # Support Contact Information
 
-### 4. Support Contact Information
+### 5. Support Contact Information
 
 If you have questions on our products or your application, we are here to help. Feel free to contact ICS for assistance at one of our offices.
 
-### 4.1. USA Headquarters
+### 5.1. USA Headquarters
 
 Our primary support personnel can be reached at our American headquarters in the Detroit area, using the following contact information:
 
@@ -30,7 +30,7 @@ Email: [icssupport@intrepidcs.com](mailto:icssupport%40intrepidcs.com)
 
 Intrepid’s normal support hours are from 8 am to 8 pm, Monday to Friday, Eastern Standard/ Daylight Time (EST/EDT). If you require assistance outside standard business hours, feel free to contact us and a member of our support team will get back to you as soon as possible.
 
-### 4.2. ICS International Offices
+### 5.2. ICS International Offices
 
 For support in other regions, please refer to our website which lists the latest info for our other offices:
 
