@@ -264,6 +264,8 @@ Upon selecting this menu, you will be presented with a list of organizations and
 </figure>
 </div>
 
+**Grid button** - In this <img src="/assets/images/image7.png" alt="hamberger" class="inline-image" /> button, we can enable or disable column grid layout options. Also able to export the data in `.csv` format.
+
 **Users** - This helps to add new user in the organization. 
 
 <div class="text--center">
@@ -276,8 +278,6 @@ Upon selecting this menu, you will be presented with a list of organizations and
 </div>
 
 We can see the Added users, in users dashboard section. (actions, first name, last name, user name, email, last active and disable date etc.)
-
-**Grid button** - In this <img src="/assets/images/image7.png" alt="hamberger" class="inline-image" /> button, we can enable or disable column grid layout options. Also able to export the data in `.csv` format.
 
 ### 3.1.4 Devices Menu {#devices-menu}
 

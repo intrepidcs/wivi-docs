@@ -34,8 +34,7 @@ In the Windows Search Bar, search for `neoVI Explorer` and open the program.
 1. In neoVI Explorer, connect to the Intrepid Hardware  
 2. Open the "Linux Settings" menu.
 3. In Linux Settings, change the "Configuration Port" to "ETH 01"
-4. Click "Write Settings."
-
+4. Click "Write Settings." (**Note** - After applying the **Write Settings**, the respective device requires a reboot)
 
 <div class="text--center">
 
