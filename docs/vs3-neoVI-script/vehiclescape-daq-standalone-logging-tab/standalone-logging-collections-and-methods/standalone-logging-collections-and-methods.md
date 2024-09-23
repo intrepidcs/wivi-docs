@@ -16,9 +16,15 @@ A full set of independent parameters and options is maintained for each collecti
 
 Each Standalone Logging script can have a maximum of 16 collections.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 1: Summary information for four different collectins in a Standalone Logging setup; click any entry to view or edit its settings.
+<figure>
+
+![collections](../../../assets/collections.png "collections")
+<figcaption>Figure 1: Summary information for four different collectins in a Standalone Logging setup; click any entry to view or edit its settings.</figcaption>
+</figure>
+</div>
+
 
 ## Collection Names
 
@@ -26,9 +32,14 @@ The name of a collection can be changed using the text entry box at the top of t
 
 Every data file saved by the logger script will have the same root name as the collection it came from. Select Append Time and Data to file name to have Vehicle Spy automatically timestamp the files.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 2: Defining the name of a collection.
+<figure>
+
+![collection-name](../../../assets/collection-name.png "collection-name")
+<figcaption>Figure 2: Defining the name of a collection.</figcaption>
+</figure>
+</div>
 
 ### Collection Methods
 
@@ -43,6 +54,12 @@ The method for a collection is selected using a set of four buttons located at t
 
 Note again that the [Status Reporting](./../standalone-logging-status-reporting/), [Power Management](./../standalone-logging-power-management/) and [Generation Options](./../standalone-logging-generation-options/) sections in the bottom half of the Standalone Logging Tab remain the same for all collection types.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 3: There are four collection method options, each with a button that customizes the settings in the upper half of the Standalone Logging tab.
+<figure>
+
+![collection-method](../../../assets/collection-meth.png "collection-method")
+<figcaption>Figure 3: There are four collection method options, each with a button that customizes the settings in the upper half of the Standalone Logging tab.</figcaption>
+</figure>
+</div>
+

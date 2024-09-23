@@ -24,16 +24,27 @@ Table 1 contains a summary of the three start options and information about how 
 
 Data begins logging as soon as the device powers up. The Start Options subsection appears as shown in Figure 1.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Start section options with Start immediately Selected.
+<div class="text--center">
+
+<figure>
+
+![start-immediately](../../../../assets/start-immediately.png "start-immediately")
+<figcaption>Figure 1: Start section options with Start immediately Selected.</figcaption>
+</figure>
+</div>
 
 ## Start When Expression is True
 
 Selecting this option allows you to enter an expression that must be true for collection to start. The Start Options subsection will appear as shown in Figure 2.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 2: Start section options with Start when expression is true Selected.
+<figure>
+
+![start-immediately-exp-true](../../../../assets/start-immediately-exp-true.png "start-immediately-exp-true")
+<figcaption>Figure 2: Start section options with Start when expression is true Selected.</figcaption>
+</figure>
+</div>
 
 Press the ![fx](../../../../assets/fx.gif "fx") button to select an expression that must be true to start collection. You can also check boxes to enable collection to begin on the following events:
 
@@ -47,13 +58,18 @@ This option provides extra options for how to trigger data collection based on a
 
 **Note:** The **Start using trigger expression** option is also used by the [Bus Query](../../collections-and-methods-bus-query-method/) method.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 3: Start section options with Start using trigger expression Selected.
+<figure>
+
+![start-immediately-using-trigger](../../../../assets/start-immediately-using-trigger.png "start-immediately-using-trigger")
+<figcaption>Figure 3: Start section options with Start using trigger expression Selected.</figcaption>
+</figure>
+</div>
 
 ## Selecting a Trigger
 
-The  button is enabled, along with the additional optional trigger options mentioned above:
+The ![fx](../../../../assets/fx.gif "fx") button is enabled, along with the additional optional trigger options mentioned above:
 
 * neoVI MIC button press
 * neoVI MOTE using HS CAN3

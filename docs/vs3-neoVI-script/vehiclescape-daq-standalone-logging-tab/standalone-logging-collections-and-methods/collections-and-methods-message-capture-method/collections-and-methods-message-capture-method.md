@@ -10,9 +10,14 @@ sidebar_label: "Collections and Methods: Message Capture Method"
 
 In VehicleScape DAQ, the [Standalone Logging](./../../../vehiclescape-daq-standalone-logging-tab/) of a Message Capture [collection](./../../standalone-logging-collections-and-methods/) lets ICS hardware log data files over a period of time. Figure 1 shows the default settings you will see when first entering this area, though changes to some settings will alter the displayed options in other areas.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 1: Option subsections for the VehicleScape DAQ Standalone Logging Message Capture collection method.
+<figure>
+
+![option-subsections](../../../../assets/option-subsections.png "option-subsections")
+<figcaption>Figure 1: Option subsections for the VehicleScape DAQ Standalone Logging Message Capture collection method.</figcaption>
+</figure>
+</div>
 
 The options for this collection method are broken into five subsections:
 

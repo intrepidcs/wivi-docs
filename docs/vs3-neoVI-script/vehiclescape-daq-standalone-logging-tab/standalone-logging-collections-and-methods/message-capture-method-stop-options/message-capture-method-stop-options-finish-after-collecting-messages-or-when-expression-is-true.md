@@ -13,5 +13,11 @@ When using the [Message Capture](./../../collections-and-methods-message-capture
 * **Finish after collecting # messages:** Stop logging when the specified number of messages has been collected after the [Start](../../collections-and-methods-message-capture-method/message-capture-method-start-options/) trigger.
 * **Finish when expression is true:** Stop logging when the selected expression is true; use the  button to build the expression using the Expression Editor.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: The Finish after collecting # messages / Finish when expression is true Stop Options.
+<div class="text--center">
+
+<figure>
+
+![Finish](../../../../assets/finish.png "Finish")
+<figcaption>Figure 1: The Finish after collecting # messages / Finish when expression is true Stop Options.</figcaption>
+</figure>
+</div>

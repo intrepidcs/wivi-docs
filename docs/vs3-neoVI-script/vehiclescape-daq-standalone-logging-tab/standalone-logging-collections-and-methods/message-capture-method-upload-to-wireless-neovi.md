@@ -18,5 +18,11 @@ WiFi is faster than 3G, but WiFi signals may be hard to find in some areas. Cell
 
 **Note:** These settings may also be used by the [Bus Query](./../collections-and-methods-bus-query-method/) method when the appropriate hardware is in place.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Upload to Wireless neoVI options for wireless connectivity using the neoVI PLASMA.
+<div class="text--center">
+
+<figure>
+
+![plasma](../../../assets/plasma-option.png "plasma")
+<figcaption>Figure 1: Upload to Wireless neoVI options for wireless connectivity using the neoVI PLASMA</figcaption>
+</figure>
+</div>

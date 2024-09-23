@@ -41,7 +41,7 @@ The Standalone Logging page is divided into two main areas (Figure 1):
 
 <figure>
 
-![std-logging-tab](../../assets/std-logging-tab.gif "std-logging-tab")
+![std-logging-tab](../../assets/std-logging-tab.png "std-logging-tab")
 <figcaption>Figure 1: The VehicleScape DAQ Standalone Logging Tab is logically divided into an upper area that lists collections and shows options that vary depending on the selected collection method, and a lower area with universal options applicable to all methods.</figcaption>
 </figure>
 </div>

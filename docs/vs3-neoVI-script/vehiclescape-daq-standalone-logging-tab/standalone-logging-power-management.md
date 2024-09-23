@@ -14,8 +14,14 @@ Standalone Logging's Power Management features control when the logger goes to s
 
 The Power Management section of the Standalone Logging screen can be found in Figure 1. There are three subsections containing related options, plus an additional option at the bottom of the box, all of which are explained below.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Standalone Logging Power Management Options.
+<div class="text--center">
+
+<figure>
+
+![pwr-mgmt](../../assets/pwr-mgmt.png "pwr-mgmt")
+<figcaption>Figure 1: Standalone Logging Power Management Options.</figcaption>
+</figure>
+</div>
 
 ## Sleep Options
 
@@ -35,8 +41,14 @@ Clicking the **Advanced** button launches a dialog box that gives you even more 
 
 **Note:** These settings are also found under **Advanced Options** in the [Generation Options](../standalone-logging-generation-options/) area.
 
-![test](https://placehold.co/600x400 "test")
-Figure 2: Standalone Logging Power Management Advanced Options. Left, the Advanced tab, right, the Sleep User Function Blocks tab.
+<div class="text--center">
+
+<figure>
+
+![pwr-mgmt-adv](../../assets/pwr-mgmt-adv.png "pwr-mgmt-adv")
+<figcaption>Figure 2: Standalone Logging Power Management Advanced Options. Left, the Advanced tab, right, the Sleep User Function Blocks tab.</figcaption>
+</figure>
+</div>
 
 ## Wake Options
 

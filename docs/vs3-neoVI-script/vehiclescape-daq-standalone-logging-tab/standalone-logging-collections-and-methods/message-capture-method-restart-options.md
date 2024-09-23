@@ -17,8 +17,14 @@ In this case there are two restart options with the **Force restart** option gra
 * **Do not restart the collection when finished:** End logging after data has been captured.
 * **Restart the collection when finished:** Start logging again after initial data capture.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Restart Options when Start Option = Start immediately.
+<div class="text--center">
+
+<figure>
+
+![restart](../../../assets/restart.png "restart")
+<figcaption>Figure 1: Restart Options when Start Option = Start immediately</figcaption>
+</figure>
+</div>
 
 ## Start Option = Start When Expression is True
 
@@ -30,8 +36,14 @@ In this case there are three restart options. The option controls what happens a
 
 Figure 2 shows the three options.
 
-![test](https://placehold.co/600x400 "test")
-Figure 2: Restart Options when Start Option = Start when expression is true.
+<div class="text--center">
+
+<figure>
+
+![restart-collection](../../../assets/restart-collection.png "restart-collection")
+<figcaption>Figure 2: Restart Options when Start Option = Start when expression is true.</figcaption>
+</figure>
+</div>
 
 ## Start Option = Start Using Trigger Expression
 
@@ -53,5 +65,13 @@ Table 1 summarizes which restart options are available based on selected Standal
 | Trigger when expression changes                                                               | Do Not Restart, Restart                                    | Restart                                                 | Do Not Restart, Restart                |
 | Trigger when expression increases / decreases / changes / exceeds constant and then decreases | Do Not Restart, Restart                                    | Restart                                                 | Do Not Restart, Restart                |
 
-![test](https://placehold.co/600x400 "test")
-Figure 3: Restart Options when Start Option = Using Trigger Expression, the Trigger when expression is true suboption is selected, and the One-shot Report Stop Option has been chosen.
+<br/>
+
+<div class="text--center">
+
+<figure>
+
+![restart-collection](../../../assets/restart-collection.png "restart-collection")
+<figcaption>Figure 3: Restart Options when Start Option = Using Trigger Expression, the Trigger when expression is true suboption is selected, and the One-shot Report Stop Option has been chosen.</figcaption>
+</figure>
+</div>

@@ -20,8 +20,14 @@ The [Status Reporting](./../../standalone-logging-status-reporting/), [Power Man
 
 This is where the primary settings to control data collection for the bus query can be found (Figure 1).
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Bus Query Options for the VehicleScape DAQ Standalone Logging Bus Query collection method.
+<div class="text--center">
+
+<figure>
+
+![bus-query-options](../../../assets/bus-query-options.png "bus-query-options")
+<figcaption>Figure 1: Bus Query Options for the VehicleScape DAQ Standalone Logging Bus Query collection method</figcaption>
+</figure>
+</div>
 
 ## Base ECU
 
@@ -34,8 +40,14 @@ You can choose to read from selected ECUs or specify a range of DIDs (Figure 1: 
 * **Select ECUs:** This is the default option; click the **Select ECUs** button to choose them.
 * **Specify a Range:** When you choose this option, additional parameters will appear, as shown in Figure 2. Enter the start and end arbitration IDs for the range you want to collect from, and use the **Network of ECUs** drop-down box to change the network if necessary.
 
-![test](https://placehold.co/600x400 "test")
-Figure 2: DID range options for the Bus Query collection.
+<div class="text--center">
+
+<figure>
+
+![DID-range](../../../assets/DID-range.png "DID-range")
+<figcaption>Figure 2: DID range options for the Bus Query collection.</figcaption>
+</figure>
+</div>
 
 ## Select DIDs/PIDs
 
@@ -51,8 +63,14 @@ There are three options to control the reading of DTCs (Figure 1: <img src="../.
 
 The **Status Mask** button (Figure 1: <img src="../../../../assets/images/five-digit.jpg" alt="five-digit" class="inline-image" />) shows the current DTC status bit mask in hexadecimal form. To change the mask, click the button and a dialog will appear allowing you to select the mask bits (Figure 3).
 
-![test](https://placehold.co/600x400 "test")
-Figure 3: DTC Status Mask dialog box.
+<div class="text--center">
+
+<figure>
+
+![status-mask](../../../assets/DID-status.png "status-mask")
+<figcaption>Figure 3: DTC Status Mask dialog box.</figcaption>
+</figure>
+</div>
 
 ## Read OBD-II VIN and Calibration ID
 

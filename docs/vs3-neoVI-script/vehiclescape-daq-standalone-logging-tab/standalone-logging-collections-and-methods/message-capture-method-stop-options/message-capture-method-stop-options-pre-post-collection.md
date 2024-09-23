@@ -12,8 +12,14 @@ When using the [Message Capture](./../../collections-and-methods-message-capture
 
 Figure 1 shows the default appearance of the **Stop** subsection of the Standalone Logging tab when **Pre/Post Collection** is selected. The settings and prompts will change slightly depending on the parameters selected.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: The Pre/Post Collection Stop option block.
+<div class="text--center">
+
+<figure>
+
+![pre-post](../../../../assets/pre-post.png "pre-post")
+<figcaption>Figure 1: The Pre/Post Collection Stop option block.</figcaption>
+</figure>
+</div>
 
 ## Stop on expression
 

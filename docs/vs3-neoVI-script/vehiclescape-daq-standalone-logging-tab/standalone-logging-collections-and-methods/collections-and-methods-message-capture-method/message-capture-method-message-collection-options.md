@@ -10,9 +10,14 @@ sidebar_label: "Message Capture Method: Message Collection Options"
 
 In VehicleScape DAQ [Standalone Logging](./../../../../vehiclescape-daq-standalone-logging-tab/), the first set of options for the [Message Capture Method](./../../collections-and-methods-message-capture-method/) deals with which messages to collect. Figure 1 shows this subsection of the options tab.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 1: Message Collection Options for the VehicleScape DAQ Standalone Logging Message Capture collection method.
+<figure>
+
+![message-collection-options](../../../../assets/message-collection-options.png "message-collection-options")
+<figcaption>Figure 1: Message Collection Options for the VehicleScape DAQ Standalone Logging Message Capture collection method.</figcaption>
+</figure>
+</div>
 
 There are two main options:
 
@@ -23,6 +28,11 @@ There are two main options:
 
 Clicking the **Log only the items selected on the Channels tab** option enables the **Advanced Options** button, which when clicked, opens up a dialog box with more specific settings, as shown in Figure 2.
 
-![test](https://placehold.co/600x400 "test")
+<div class="text--center">
 
-Figure 2: Advanced Message Collection Options when collecting from selected channels.
+<figure>
+
+![advanced-collection-options](../../../../assets/advanced-collection-options.png "advanced-collection-options")
+<figcaption>Figure 2: Advanced Message Collection Options when collecting from selected channels.</figcaption>
+</figure>
+</div>

@@ -12,8 +12,14 @@ The last of the Standalone Logging sections contains options that control the ge
 
 Figure 1 shows the primary settings for the Generation Options section of Standalone Logging. The options are explained in detail below.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Standalone Logging Generation Options and Generate Button.
+<div class="text--center">
+
+<figure>
+
+![std-gen-opt](../../assets/std-gen-opt.png "std-gen-opt")
+<figcaption>Figure 1: Standalone Logging Generation Options and Generate Button</figcaption>
+</figure>
+</div>
 
 ## Generate for Wireless Devices
 
@@ -34,13 +40,21 @@ Normally this drop-down box will be set to CoreMini to generate a **CoreMini** s
 
 ## Clean Button
 
-Press this button to remove automatically-generated function blocks, application signals and messages with the "_VSSAL" suffix. This essentially undoes the actions of the **Generate** button.
+Press this button to remove automatically-generated function blocks, application signals and messages with the "`_VSSAL`" suffix. This essentially undoes the actions of the **Generate** button.
 
 ## Advanced Options
 
 Press the **Advanced Options** button to launch the **Advanced Generator Options** dialog box. This interface has three tabs, which are explained below.
 
-![test](https://placehold.co/1000x20 "test")
+<div class="text--center">
+
+<figure>
+
+![adv-opn](../../assets/adv-opn.png "adv-opn")
+<figcaption>advanced-options</figcaption>
+</figure>
+</div>
+
 Several general options can be set here (Figure 2):
 
 * **Force use of partitions:** When checked, partitions are always used, not only for pre/post collections.
@@ -51,8 +65,14 @@ Several general options can be set here (Figure 2):
 
 **Note:** The **Networks to ignore for the "On No Bus Activity" option** settings are the same as those found under **Advanced Options** in the Power Management area.
 
-![test](https://placehold.co/600x400 "test")
-Figure 2: Standalone Logging Advanced Generator Options, Advanced Tab.
+<div class="text--center">
+
+<figure>
+
+![adv-gen-optn](../../assets/adv-gen-optn.png "adv-gen-optn")
+<figcaption>Figure 2: Standalone Logging Advanced Generator Options, Advanced Tab</figcaption>
+</figure>
+</div>
 
 ## Auto Disable Diagnostics Tab
 
@@ -64,8 +84,14 @@ If you have enabled the option above, the **If no diag commands exist from a sep
 
 The table at the bottom of the tab allows you to add or delete specific IDs and networks. If a message appears matching any network / arbitration ID pair, the logger will stop transmitting all diagnostic messages.
 
-![test](https://placehold.co/600x400 "test")
-Figure 3: Standalone Logging Advanced Generator Options, Auto Disable Diagnostics Tab.
+<div class="text--center">
+
+<figure>
+
+![adv-gen-auto-disable](../../assets/adv-gen-auto-disable.png "adv-gen-auto-disable")
+<figcaption>Figure 3: Standalone Logging Advanced Generator Options, Auto Disable Diagnostics Tab</figcaption>
+</figure>
+</div>
 
 ## Sleep User Function Blocks Tab
 
@@ -73,11 +99,17 @@ In this tab (Figure 4) you can select function blocks to stop running when the l
 
 **Note:** These settings are the same as those found under **Advanced Options** in the Power Management area.
 
-![test](https://placehold.co/600x400 "test")
-Figure 4: Standalone Logging Advanced Generator Options, Sleep User Function Blocks Tab.
+<div class="text--center">
+
+<figure>
+
+![adv-gen-sleep-user](../../assets/adv-gen-sleep-user.png "adv-gen-sleep-user")
+<figcaption>Figure 4: Standalone Logging Advanced Generator Options, Sleep User Function Blocks Tab</figcaption>
+</figure>
+</div>
 
 ## Generate Button
 
-This is the main **Go!** button for the Standalone Logging feature. When pressed, Vehicle Spy will use all of the settings entered into various areas of Standalone Logging, and generate the appropriate function blocks, application signals and messages. All generated content will be marked with the suffix "_VSSAL" (for "**V**ehicle**S**cape DAQ **S**tand**A**lone **L**ogging").
+This is the main **Go!** button for the Standalone Logging feature. When pressed, Vehicle Spy will use all of the settings entered into various areas of Standalone Logging, and generate the appropriate function blocks, application signals and messages. All generated content will be marked with the suffix "`_VSSAL`" (for "**V**ehicle**S**cape DAQ **S**tand**A**lone **L**ogging").
 
 Pressing the **Generate** button also opens the CoreMini console, which compiles and saves the generated information.

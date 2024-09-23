@@ -12,8 +12,14 @@ In the [Standalone Logging](./../../vehiclescape-daq-standalone-logging-tab/) mo
 
 The default appearance of this subsection of the Standalone Logging screen can be found in Figure 1.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Standalone Logging Status Reporting Options.
+<div class="text--center">
+
+<figure>
+
+![std-report](../../assets/std-report.png "std-report")
+<figcaption>Figure 1: Standalone Logging Status Reporting Options.</figcaption>
+</figure>
+</div>
 
 There are three main options here, each of which is enabled with a checkbox: **LEDs, Use neoVI MOTE** and **Beep on Wakeup (PLASMA only)**.
 
@@ -29,8 +35,14 @@ Use LEDs to indicate the current logger status:
 
 Use the neoVI MOTE for simple feedback and control features. Enabling this option causes additional options to appear in the right half of the Status Reporting box (Figure 2).
 
-![test](https://placehold.co/600x400 "test")
-Figure 2: Standalone Logging Reporting Options including neoVI MOTE options.
+<div class="text--center">
+
+<figure>
+
+![std-report-mote](../../assets/std-report-mote.png "std-report-mote")
+<figcaption>Figure 2: Standalone Logging Reporting Options including neoVI MOTE options.</figcaption>
+</figure>
+</div>
 
 Special options for using the neoVI MOTE for reporting:
 

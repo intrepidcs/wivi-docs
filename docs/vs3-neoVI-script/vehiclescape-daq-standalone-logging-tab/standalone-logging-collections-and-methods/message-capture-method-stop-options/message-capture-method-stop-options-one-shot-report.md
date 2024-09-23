@@ -12,9 +12,14 @@ When using the [Message Capture](./../../collections-and-methods-message-capture
 
 Figure 1 shows the appearance of the Stop Options subsection of the Standalone Logging tab when **One-shot Report** is selected.
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: The One-shot Report Collection Configuration.
+<div class="text--center">
 
+<figure>
+
+![one-short](../../../../assets/one-short.png "one-short")
+<figcaption>Figure 1: The One-shot Report Collection Configuration</figcaption>
+</figure>
+</div>
 
 ## After trigger delay
 

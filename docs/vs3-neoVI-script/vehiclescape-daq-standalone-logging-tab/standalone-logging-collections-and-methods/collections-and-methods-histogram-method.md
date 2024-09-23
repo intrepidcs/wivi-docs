@@ -24,15 +24,27 @@ Begin by defining the dimensions of the histogram; that is, choosing the number 
 * 2 Dimensional (X and Y axes)
 * 3 Dimensional (X, Y and Z axes)
 
-![test](https://placehold.co/600x400 "test")
-Figure 1: Selecting the number of axes for histogram data collection.
+<div class="text--center">
+
+<figure>
+
+![histogram-dimension](../../../assets/histogram-dimension.png "histogram-dimension")
+<figcaption>Figure 1: Selecting the number of axes for histogram data collection.</figcaption>
+</figure>
+</div>
 
 ## Histogram Axis Expression and Options
 
 You must choose an expression and make appropriate settings for each of the axes selected in the preceding step. This is accomplished using the main expression selection and settings area shown in Figure 2.
 
-![test](https://placehold.co/600x400 "test")
-Figure 2: Histogram axis tabs.
+<div class="text--center">
+
+<figure>
+
+![histogram-axis](../../../assets/histogram-axis.png "histogram-axis")
+<figcaption>Figure 2: Histogram axis tabs.</figcaption>
+</figure>
+</div>
 
 ## Axis Tabs
 
@@ -54,8 +66,14 @@ For example, the default settings shown in (Figure 2: <img src="../../../../asse
 
 By default, all buckets are the same size, split evenly across the defined value range between **Minimum Value** and **Maximum Value**. If you check **Use Non-Linear Bucket Spacing**, you can then click the **Setup Buckets**... button to bring up the **Setup Histogram Buckets** dialog box (Figure 3). Here you can set customized buckets of variable size. Choose from defining the setup based on the boundary values between adjacent buckets, or specifying each bucket's minimum value and width.
 
-![test](https://placehold.co/600x400 "test")
-Figure 2: Histogram axis tabs.
+<div class="text--center">
+
+<figure>
+
+![histogram-axis-tab](../../../assets/histogram-axis-tab.png "histogram-axis")
+<figcaption>Figure 2: Histogram axis tabs.</figcaption>
+</figure>
+</div>
 
 ## Underflow and Overflow Handling
 
@@ -85,8 +103,14 @@ The available options change based on which of these selections is made.
 
 The default setting is to sample periodically using the specified time interval (default is every 1 second). Figure 3 shows the settings available in this mode.
 
-![test](https://placehold.co/600x400 "test")
-Figure 3: Histogram Sample Options for periodic sampling.
+<div class="text--center">
+
+<figure>
+
+![histogram-sample](../../../assets/histogram-sample.png "histogram-sample")
+<figcaption>Figure 3: Histogram Sample Options for periodic sampling.</figcaption>
+</figure>
+</div>
 
 Checking the **Only when expression is true** box causes data to be logged periodically only when the specified expression is true. Press the <img src="../../../../assets/images/fx.gif" alt="fx" class="inline-image" /> button to select the expression; you can also check boxes to enable any of the following events as triggers for sampling:
 
@@ -98,8 +122,14 @@ Checking the **Only when expression is true** box causes data to be logged perio
 
 When this option is selected, the settings in this area appear as in Figure 4.
 
-![test](https://placehold.co/600x400 "test")
-Figure 4: Sample Options for sampling based on a trigger expression.
+<div class="text--center">
+
+<figure>
+
+![sample-option](../../../assets/sample-option.png "sample-option")
+<figcaption>Figure 4: Sample Options for sampling based on a trigger expression.</figcaption>
+</figure>
+</div>
 
 ## Selecting a Trigger
 

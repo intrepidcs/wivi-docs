@@ -22,3 +22,7 @@ yarn-error.log*
 # ignore ini files 
 
 *.ini
+
+# ignore standalone-logging-old-data
+
+/standalone-logging-old-data.txt
