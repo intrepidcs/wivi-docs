@@ -27,6 +27,7 @@ sidebar_label: Getting started
 ### [(1) Introduction and Overview](/introduction-and-overview/)
 ### [(2) Device Configuration](/device-configuration/)
 ### [(3) Wireless neoVI](/wireless-neovi/)
-### [(4) Support Contact Information](/support/)
+### [(4) Creating a Script in Vehicle Spy 3](/vs3-neoVI-script/)
+### [(5) Support Contact Information](/support/)
 
 </div>
