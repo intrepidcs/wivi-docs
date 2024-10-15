@@ -22,7 +22,7 @@ This section will explore both ways to get the neoVI [CONNECT](https://intrepidc
 
 <figure>
 
-![neoVI RED 2 Device](./assets/image44.jpg "neoVI RED 2 Device")
+![neoVI RED 2 Device](./assets/image44.webp "neoVI RED 2 Device")
 <figcaption>neoVI RED 2 Device</figcaption>
 </figure>
 </div>
@@ -51,13 +51,13 @@ Once this is done, power cycle the device, and plug into ‘ETH 01.’ The confi
 
 <figure>
 
-![neoVI RED 2 top-view](./assets/image44.jpg "neoVI RED 2 top-view")
+![neoVI RED 2 top-view](./assets/image44.webp "neoVI RED 2 top-view")
 <figcaption></figcaption>
 </figure>
 
 <figure>
 
-![neoVI RED 2 back-view](./assets/image61.jpg "neoVI RED 2 back-view")
+![neoVI RED 2 back-view](./assets/image61.webp "neoVI RED 2 back-view")
 <figcaption></figcaption>
 </figure>
 </div>
