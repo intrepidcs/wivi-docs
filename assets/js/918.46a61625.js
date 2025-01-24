@@ -1,0 +1,1 @@
+(self.webpackChunkwivi_docs=self.webpackChunkwivi_docs||[]).push([[918],{8974:(s,c,e)=>{"use strict";e.d(c,{A:()=>k});var i=e(8291);const k=i},5741:()=>{}}]);
