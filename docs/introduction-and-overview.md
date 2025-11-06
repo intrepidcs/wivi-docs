@@ -62,7 +62,8 @@ Wireless neoVI supports the [neoVI RED2](https://intrepidcs.com/products/vehicle
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	      |
 | [![red2](./assets/red2.png)](https://intrepidcs.com/products/vehicle-network-adapters/neovi-red-2/)                                                               | **neoVI RED 2 Vehicle Interface** <br/> Recommended for: **DW CAN, ISO9141, LIN, and J1939** <br/> More information here: [neoVI RED 2](https://intrepidcs.com/products/vehicle-network-adapters/neovi-red-2/)                                                                             	      |
 | [![fire3](./assets/fire3.png)](https://intrepidcs.com/products/vehicle-network-adapters/neovi-fire-3-canfd-lin-ethernet-vehicle-interface-wireless-datalogger/)  	| **neoVI FIRE 3 Vehicle Interface** <br/> Recommended for: **CAN/CAN FD, GMLAN, ISO9141, OBD-II, LIN, and J1939** <br/> More information here: [neoVI FIRE3](https://intrepidcs.com/products/vehicle-network-adapters/neovi-fire-3-canfd-lin-ethernet-vehicle-interface-wireless-datalogger/)        |
-| [![fire3-flexray](./assets/fire3-flexray.png)](https://intrepidcs.com/products/vehicle-network-adapters/neovi-fire-3-flexray/)  	                                | **neoVI FIRE 3 FlexRay Vehicle Interface** <br/> Recommended for: **CAN/CAN FD, SWCAN, GMLAN, ISO9141, OBD-II, LIN, and J1939** <br/> More information here: [neoVI FIRE3 FlexRay](https://intrepidcs.com/products/vehicle-network-adapters/neovi-fire-3-flexray/)                                  |
+| [![fire3-flexray](./assets/fire3-flexray.png)](https://intrepidcs.com/products/vehicle-network-adapters/neovi-fire-3-flexray/)  	                                | **neoVI FIRE 3 FlexRay Vehicle Interface** <br/> Recommended for: **CAN/CAN FD, FlexRay, SWCAN, GMLAN, ISO9141, OBD-II, LIN, and J1939** <br/> More information here: [neoVI FIRE3 FlexRay](https://intrepidcs.com/products/vehicle-network-adapters/neovi-fire-3-flexray/)                                  |
+| [![connet](./assets/connet.png)](https://intrepidcs.com/products/data-loggers/ruggedized-ip67-data-logger-neovi-connect/)  	                                | **neoVI Connect Ruggedized IP67 Data Logger, ECU Simulator, and Gateway Solution** <br/> Recommended for: **CAN/CAN FD, ISO9141, OBD-II, LIN, and J1939** <br/> More information here: [neoVI CONNECT](https://intrepidcs.com/products/data-loggers/ruggedized-ip67-data-logger-neovi-connect/)               |
 
 <br/>
 
@@ -127,5 +128,6 @@ which requires Docker (v19.03+)
 
 Wireless neoVI supports custom data processing and data handling.
 Frequently used languages for custom options that need to be installed:
+
 
   - Python 3.8+
