@@ -23,8 +23,12 @@ const config = {
   organizationName: 'intrepidcs', // Usually your GitHub org/user name.
   projectName: 'wivi-docs', // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+onBrokenLinks: 'ignore',
+markdown: {
+  hooks: {
+    onBrokenMarkdownLinks: 'warn',
+  },
+},
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
